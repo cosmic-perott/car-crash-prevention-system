@@ -1,0 +1,7 @@
+path: test/yolo_car_1000
+
+train: images/val
+val: images/val
+
+names:
+  0: car
