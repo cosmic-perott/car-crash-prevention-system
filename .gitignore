@@ -1,1 +1,6 @@
-
+denoise_filter/
+interface/
+isitfog_algorithm/
+object_detection_model/
+preprocessing/
+/basicframework.js
