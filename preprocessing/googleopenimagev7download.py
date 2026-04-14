@@ -1,7 +1,7 @@
 import fiftyone as fo
 import fiftyone.zoo as foz
 
-CLASSES = ["Car"]        # you can add "Truck", "Bus"
+CLASSES = ["Car"]      
 TRAIN_SAMPLES = 3000
 VAL_SAMPLES = 15000
 EXPORT_DIR = "yolo_car_dataset"
