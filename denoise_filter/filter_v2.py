@@ -1,6 +1,10 @@
 import cv2
 import numpy as np
 
+#change this part in order to change the image being noise reduced
+IMAGE_URL = "foggy.jpg"
+
+
 #use of standard Dark Channel Prior (DCP) Dehazing algorithm
 def dark_channel(img, size=15):
     min_channel = np.min(img, axis=2)
@@ -102,7 +106,7 @@ def process_image(image_path):
 
 
 if __name__ == "__main__":
-    input_path = "foggy.jpg"
+    input_path = IMAGE_URL
 
     original, result = process_image(input_path)
 
