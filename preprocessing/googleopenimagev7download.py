@@ -47,4 +47,4 @@ val_dataset.export(
     split="val",
 )
 
-print("✅ Dataset ready in:", EXPORT_DIR)
+print(EXPORT_DIR)
